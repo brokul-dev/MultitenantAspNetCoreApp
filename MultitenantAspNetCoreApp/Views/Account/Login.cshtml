@@ -1,0 +1,14 @@
+﻿@model MultitenantAspNetCoreApp.LoginViewModel
+
+<div>Please login</div>
+
+<form asp-controller="Account" asp-action="Login" method="post">
+    <input type="hidden" asp-for="ReturnUrl"/>
+    <div>
+        Login: <input type="text" asp-for="UserName"/>
+    </div>
+    <div>
+        Password: <input type="password" asp-for="Password"/>
+    </div>
+    <input type="submit" value="Login"/>
+</form>

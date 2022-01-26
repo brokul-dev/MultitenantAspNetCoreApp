@@ -1,0 +1,14 @@
+﻿{
+  "profiles": {
+    "MultitenantWebApp": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:5001",
+      "launchUrl": "https://localhost:5001/tenant1",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
